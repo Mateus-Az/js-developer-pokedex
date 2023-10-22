@@ -6,6 +6,10 @@
     list-style: none;
 }
 
+.pokemons ol li:hover{
+    border: solid 2px red;
+}
+
 .normal {
     background-color: #a6a877;
 }
@@ -139,11 +143,13 @@
 .pagination button {
     padding: .25rem .5rem;
     margin: .25rem 0;
-    font-size: .625rem;
+    font-size: .9rem;
     color: #fff;
-    background-color: #6c79db;
+    background-color: red;
     border: none;
     border-radius: 1rem;
+    width: 200px;
+    height: 35px;
 }
 
 @media screen and (min-width: 380px) {
